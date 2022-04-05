@@ -21,11 +21,10 @@ header{
   padding: 1em;
   padding-bottom: 2em;
   background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,13,1) 12%, rgba(10,13,2,1) 17%,
-  url("Images/walkingback.png") no repeat;
+
 }
 
- h1 img {           /*Select an image inside h1 */
+ h1 img {
    max-width: 100%;
  }
 header a{
@@ -151,3 +150,4 @@ p{
          font-style: italic;
          text-decoration: underline;
        }
+  
