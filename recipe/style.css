@@ -7,7 +7,7 @@
 body{
   font-family: 'Merriweather', serif;
   font-weight: 300;
-  background-color: LemonChiffon;
+  background-color: rgb(187, 128, 34);
   max-width: 1200px;
   /*border-style: dotted;
   border-width: 3px;
@@ -25,9 +25,16 @@ body{
    margin-bottom: 1em; /* 1em is equal to the font size root element*/
    margin-top: 1em;
  }
+h1{
+  color: white;
+  background-color: brown;
+  text-align: center;
+}
+
  p{
    margin-bottom: 1em;
  }
  img{
    max-width: 100%;
  }
+
