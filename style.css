@@ -1,0 +1,262 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+ p, h1, h2, h3{
+   margin-bottom:1em;
+ }
+
+
+ #wrapper{
+   max-width: 1200px;
+   margin: 0 auto;
+ }
+
+.header{
+   display: flex;
+   justify-content:space-between;
+ }
+/*
+ h1{
+   float: left;
+ }
+*/
+ .topnav img{
+   float: left;
+ }
+
+ .topmenu{
+   clear: right;
+   border: solid 1px gray;
+   /*display:none;*/
+   position: absolute;
+   right:1em;
+   top:50px;
+   background-color: #fff;
+   box-shadow: 2px 2px 5px #888;
+ }
+
+ .topmenu li{
+  list-style-type: none;
+  margin-bottom: 1em;;
+  border-bottom: solid 1px gray;
+  padding: 1em;
+}
+
+.search input{
+  border: solid 1px gray;
+  padding:0.5em;
+  margin:1em;
+}
+
+
+  /* *** Program Nav ** */
+
+
+.program-nav li{
+  border:solid 1px gray;
+  list-style-type:  none;
+}
+
+.program-nav li a{
+  padding: 1em;
+  display:block;
+  color: black;
+  text-decoration:none;
+}
+
+.dropdown{
+  display: none;
+  background-color: rgb(108, 108, 108);
+}
+
+.dropdown a:hover{
+  background-color: gray;
+  color:white;
+}
+
+.program-nav li:hover .dropdown{
+  display:block;
+}
+
+
+/* *** Banner Styles ***** */
+
+.banner{
+  margin: 2em 0;
+  padding:2em;
+  background-image: url("cunydesign/index.html/photo1078.jgp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 15em;
+
+}
+/* *** news and events **** */
+.news h3{
+  margin:0;
+}
+
+.news h4{
+  margin:1em;
+}
+
+.program-card{
+  border:solid 1px lightgray;
+  border-radius: 10px;
+  margin-bottom: 2em;
+  box-shadow: 3px, 3px, 3px;
+  transition: box-shadow 0.5s ease in;
+
+}
+
+.program-card hover{
+  box-shadow: 8px, 8px, 15px #888;
+  transform: scale(1.02) translateX(5px);
+}
+
+.program-card img {
+  width:100%;
+  border-radius: 10px 10px 0 0;
+
+}
+.card-body{
+  padding:1em;
+}
+ .program a {
+   text-decoration:none;
+   color: black;
+ }
+
+ 
+
+ .program-card h4{
+   margin-bottom: 1em;
+ }
+
+
+/* *** Style for Larger viewports *** */
+
+@media (min-with: 769px){
+  .topmenu{
+  clear:right;
+  display:block;
+  border: none;
+}
+}
+
+.topmenu li, .topmenu form, .topmenu ul {
+  display: inline;
+  border: none;
+
+}
+ .topnav img{
+   display:none;
+ }
+
+ .program-nav li{
+   background-color: #CCC;
+   width: 30%;
+   position:relative;
+ }
+ .program-nav-menu{
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .dropdown{
+   position: absolute;
+   width:100%;
+   left:-1px;
+ }
+  .dropdown li{
+    width:100%
+
+  }
+
+ #home main{
+   display:grid;
+   grid-template: 2fr 1fr;
+   grid-gap: 2em;
+ }
+
+ .events img{
+   width:100%;
+ }
+
+ /* Program cards */
+
+ .program{
+   display:grid;
+   grid-template-columns: 30% 30% 30%;
+   grid-gap: 2em;
+    }
+
+    .program h2{
+      /*grid-column-start: 1;*/
+      grid-column-end: 4;
+    }
+    .program card{
+      margin-bottom: 0;
+      height: 100%;
+    }
+
+    nav ul{
+      list-style-type:none;
+      padding:0;
+    }
+    
+    nav a {
+      color:white;
+      text-decoration:none;
+    }
+    
+    nav li li a{
+        color:white;
+    }
+    
+    nav li{
+      border-bottom:solid 1px #ccc;
+      background-color:#999;
+    }
+    
+    nav li a{
+      display:block;
+      padding:1em;
+    }
+    
+    nav li a:hover{
+      background-color:aqua;
+      color:black;
+    }
+    
+    nav li ul{
+      display:none;
+    }
+    
+    nav li li{
+      background-color:#666;
+    }
+    nav li:hover ul{
+      display:block;
+    }
+    
+    
+    @media(min-width:768px){
+      
+      nav li{
+        display:inline-block;
+        min-width:12em;
+      }
+      
+      nav li li{
+        display:block;
+      }
+      
+      nav li ul{
+        position:absolute;
+      }
+      
+    }
