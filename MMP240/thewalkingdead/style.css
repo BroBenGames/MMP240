@@ -1,0 +1,152 @@
+*{
+  margin:0;
+  padding:0;
+  border:none;
+}
+
+body{
+  background-color: #000;
+  Max-width:
+}
+
+#wrapper{
+  max-width: 1200px;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header{
+  background-color: black;
+  padding: 1em;
+  padding-bottom: 2em;
+  background: rgb(2,0,36);
+
+}
+
+ h1 img {
+   max-width: 100%;
+ }
+header a{
+  padding:10px;
+  border:solid 1 px #fff;
+}
+ #about .column p{
+
+   }
+p{
+  margin-bottom:1em;
+  line-height: 1.5em;
+}
+
+.lead{
+  color:#fff;
+  width:25em;
+}
+
+.btn{
+  color: #fff;
+  text-decoration: none;
+  border: solid 1px #fff;
+  padding:10px 20px;
+  border-radius: 5px;
+  display:block;
+  width:98px;
+}
+ play_btn{
+   background-image: url("Images/play_circle_black_24dp.png");
+   background-repeat: no-repeat;
+   background-position: center left;
+ }
+  nav{
+    background-color: #ccc;
+    padding-top: 0.9em;
+    padding-bottom: 0.9em;
+  }
+      li{
+        display: inline;
+        margin-left: 2em;
+        margin-right: 2em;
+      }
+      nav a{
+        color:#fff;
+        text-decoration: none;
+      }
+       nav a:hover{
+         text-decoration: underline;
+         color: Green;
+       }
+        main,footer{
+          padding: 1em;
+        }
+       .col-left{
+         width:48%;
+         float: left;
+       }
+
+       .col-right{
+         width:48%;
+         float: right;
+       }
+
+       footer{
+         clear:both;
+       }
+
+       /* Episodes style */
+
+       .episodes-container{                  /*This is the flex container*/
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+       }
+
+
+       .card{
+         width:260px;
+         margin: 1em;
+         flex:0 0 auto;
+       }
+
+        .card h2{
+          font-size: 0.875em;
+          font-style: italic;
+        }
+       .card h3{
+         font-size: 0.875em;
+         font-style: italic;
+         text-decoration: underline;
+       }
+
+       .card h4{
+         font-size: 0.875em;
+         font-style: italic;
+         text-decoration: underline;
+       }
+       .card p{
+         font-size: 0.8em;
+         font-style: oblique;
+       }
+
+       .card h5{
+        font-size: 1em;
+        font-style: italic;
+        text-decoration: underline;
+       }
+
+       .card h6{
+         font-size: 1em;
+         font-style: italic;
+         text-decoration: underline;
+       }
+
+       .card h7{
+         font-size: 1em;
+         font-style: italic;
+         text-decoration: underline;
+       }
+       .card h8{
+         font-size: 1em;
+         font-style: italic;
+         text-decoration: underline;
+       }
